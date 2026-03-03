@@ -9,29 +9,29 @@
 
 # System architecture 
 1) ESP32-CAM handles:
-Live MJPEG streaming
-Motion-triggered image capture
-Telegram command interface
-Environmental monitoring (DHT11)
-Remote relay control
+- Live MJPEG streaming
+- Motion-triggered image capture
+- Telegram command interface
+- Environmental monitoring (DHT11)
+- Remote relay control
 
 2) ESP8266 handles
-Button-triggered dynamic PIN challenge
-Telegram-based authentication
-Servo-based locking mechanism
-Event logging to Node server
+- Button-triggered dynamic PIN challenge
+- Telegram-based authentication
+- Servo-based locking mechanism
+- Event logging to Node server
 
 3) Node.js server
-Stores logs (FIFO, last 10 entries)
-Serves web dashboard
-Displays real-time access history
+- Stores logs (FIFO, last 10 entries)
+- Serves web dashboard
+- Displays real-time access history
 
 4) Features
-Live camera feed
-Flash-enabled image capture
-Motion detection alerts
-Smart relay control
-Telegram-based secure authentication
-Real-time access log dashboard
-Lightweight MJPEG streaming
-WiFi reconnection handling
+- Live camera feed
+- Flash-enabled image capture
+- Motion detection alerts
+- Smart relay control
+- Telegram-based secure authentication
+- Real-time access log dashboard
+- Lightweight MJPEG streaming
+- WiFi reconnection handling
